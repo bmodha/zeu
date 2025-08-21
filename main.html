@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Her Cats 🐾</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fffaf7;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #ffb6c1;
+      padding: 1.5rem;
+      color: #fff;
+      font-size: 2rem;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 30px;
+      padding: 1rem;
+      background: #ffb6c1;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Her Cats 🐾
+  </header>
+
+  <section class="gallery">
+    <!-- Replace with your own photos -->
+    <img src="images/cat1.jpg" alt="Cat 1" />
+    <img src="images/cat2.jpg" alt="Cat 2" />
+    <img src="images/cat3.jpg" alt="Cat 3" />
+    <img src="images/cat4.jpg" alt="Cat 4" />
+    <img src="images/cat5.jpg" alt="Cat 5" />
+    <img src="images/cat6.jpg" alt="Cat 6" />
+  </section>
+
+  <footer>
+    TEST
+  </footer>
+</body>
+</html>
