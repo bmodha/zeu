@@ -36,6 +36,12 @@
       border-radius: 20px;
       box-shadow: 0 6px 12px rgba(0,0,0,0.2);
       animation: float 3s ease-in-out infinite alternate;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    img.cat-photo:hover {
+      transform: scale(1.05);
     }
 
     .emoji {
@@ -63,8 +69,10 @@
 <body>
   <h1>ZEU IS THE BEST CAT IN THE WORLD!</h1>
 
-  <!-- Cat Image -->
-  <img src="images/cat1.png" alt="ZEU the cat" class="cat-photo" />
+  <!-- Cat Image as a hyperlink -->
+  <a href="https://photos.app.goo.gl/k98sxNYjmjWuahMq6" target="_blank">
+    <img src="images/zeu.png" alt="ZEU the cat" class="cat-photo" />
+  </a>
 
   <p>🐾 Fluffy, majestic, and unbeatable 🐾</p>
   <div class="emoji">😺💖🎉</div>
